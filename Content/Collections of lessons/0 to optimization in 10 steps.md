@@ -29,7 +29,7 @@ Also, step 10 could arguably come first as it might inform how you set up the fi
 7) Building coupled models
 	1) [[Implicit vs explicit]]
 	2) [[Fixed point iterators vs Newton]]
-8) Gradient-free multidisciplinary optimization
+8) [[Gradient-free multidisciplinary optimization]]
 9) Total derivatives for coupled models
 	1) [[Nonlinear vs linear solvers]]
 	2) [[Total vs partial derivatives]]
