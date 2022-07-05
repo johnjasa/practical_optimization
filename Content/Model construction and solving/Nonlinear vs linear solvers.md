@@ -6,6 +6,7 @@ You need to use a nonlinear solver when there's backwards coupling or implicit s
 ## Context
 - look, I get it, it's really confusing and I sometimes forget to put solvers on models
 - but in 99% of cases you need a linear solver if you're using derivatives
+- nonlinear solvers help solve the physical model, linear solvers help solve for the derivatives
 
 ## Some nonlinear solvers
 - Newton

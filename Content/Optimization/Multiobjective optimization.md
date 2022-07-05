@@ -5,6 +5,11 @@ Maybe there's a phase that is so short it has almost no impact on the objective
 Optimizer doesn't like how darn flat that space is
 Added a small term to the objective concerning that short phase
 
+https://www.lancaster.ac.uk/stor-i-student-sites/peter-greenstreet/2020/04/26/issues-with-weighted-sum-approach-for-non-convex-sets/
+https://www.researchgate.net/figure/For-non-convex-Pareto-fronts-it-is-possible-that-parts-of-the-front-can-not-be-obtained_fig4_261885755
+https://www.sciencedirect.com/science/article/pii/S0307904X15001742
+
+
 Linked to [[Advanced problem formulation]]
 
 ## Main message

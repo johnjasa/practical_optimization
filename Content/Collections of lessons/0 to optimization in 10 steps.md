@@ -33,7 +33,7 @@ Also, step 10 could arguably come first as it might inform how you set up the fi
 9) Total derivatives for coupled models
 	1) [[Nonlinear vs linear solvers]]
 	2) [[Total vs partial derivatives]]
-10) Gradient-based multidisciplinary optimization
+10) [[Gradient-based multidisciplinary optimization]]
 11) Coding standards and best practices
 	1) [[Git]]
 	2) [[Folder and package structure]]
