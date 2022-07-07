@@ -13,12 +13,11 @@ This topic is inherently related to all three broad categories in the course.
 This problem naturally crops up in many different places, such as:
 - Engine performance data (reach out to [[Justin]] for example from MIT guy)
 - Aerodynamic lift data
-- Resource mapping (gold, weather, etc)
+- Geospatial resource mapping (gold, soil, weather, etc)
 
 For simplicity, we will use 1-dimensional examples here.
 
 ## Simple approach
-
 A straightforward approach is a piecewise linear approximation of the data set.
 However, this produces C1 discontinuities at the data points, which means that the derivative changes instantly and thus is not well-defined.
 This potentially causes a problem for gradient-based optimizers who rely on accurate and smooth gradient information.
@@ -27,7 +26,6 @@ Imagine when the optimal point is near one of those discontinuous points.
 The optimizer would struggle to correctly iterate there and may be ill-behaved.
 
 ## How to add a smooth and differentiable curve fit
-
 Instead of using a piecewise linear fit, we could use a piecewise cubic spline, or many other forms of nonlinear surrogate modeling techniques.
 Take our example from before and fit a piecewise cubic spline to it.
 Now the resulting interpolation is smooth, continuous, and well-suited for gradient-based optimizers.

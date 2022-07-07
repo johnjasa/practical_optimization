@@ -23,18 +23,18 @@ Also, step 10 could arguably come first as it might inform how you set up the fi
 4) Get partial derivatives
 	1) [[Brief intro to derivatives]]
 	2) [[Common ways to compute derivatives]]
-6) Gradient-based opt
+5) Gradient-based opt
 	1) [[Why to use gradient-based optimizers]]
 	2) [[Types of gradient-based optimizers]]
-7) Building coupled models
+6) Building coupled models
 	1) [[Implicit vs explicit]]
 	2) [[Fixed point iterators vs Newton]]
-8) [[Gradient-free multidisciplinary optimization]]
-9) Total derivatives for coupled models
+7) [[Gradient-free multidisciplinary optimization]]
+8) Total derivatives for coupled models
 	1) [[Nonlinear vs linear solvers]]
 	2) [[Total vs partial derivatives]]
-10) [[Gradient-based multidisciplinary optimization]]
-11) Coding standards and best practices
+9) [[Gradient-based multidisciplinary optimization]]
+10) Coding standards and best practices
 	1) [[Git]]
 	2) [[Folder and package structure]]
 	3) [[Tests]]
