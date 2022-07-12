@@ -1,5 +1,17 @@
 tags: #model_construction #optimization #differentiation 
 
+Progress:
+- [x] info outlined
+- [x] info fleshed out
+- [x] visuals developed
+- [x] lecture recorded
+- [x] video produced
+- [x] video uploaded
+- [ ] 1st round feedback received
+- [ ] video refined based on feedback
+- [ ] video reuploaded
+- [x] notebook finished
+
 
 ## Main takeaway
 If you're fitting a curve or surface to data and want to ever use gradient-based optimizers, make sure to do it in a differentiable way.

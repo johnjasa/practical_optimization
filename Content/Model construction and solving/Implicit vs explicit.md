@@ -9,6 +9,10 @@ Reminiscent of pycycle
 
 Existing docs on implicit components are confusing
 
+Helpful to do different approach to see how you'd use the different objects
+This was also a more hands-on intro to OOP
+XDSM reasonable but you can also do them by hand
+
 
 I need to give this very good thought
 

@@ -1,5 +1,17 @@
 tags: #optimization 
 
+Progress:
+- [x] info outlined
+- [x] info fleshed out
+- [x] visuals developed
+- [x] lecture recorded
+- [x] video produced
+- [x] video uploaded
+- [x] 1st round feedback received
+- [ ] video refined based on feedback
+- [ ] video reuploaded
+- [x] notebook finished
+
 Sometimes the optimization doesn't converge
 Maybe there's a phase that is so short it has almost no impact on the objective
 Optimizer doesn't like how darn flat that space is
