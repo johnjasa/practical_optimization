@@ -1,7 +1,6 @@
 tags: #differentiation 
-If-conditions, singularities, for loops
+If-conditions, singularities, for loops, absolute values, min/max
 
 Happens in GASPY etc
 If else breaks your derivatives; could just have discontinuous derivs at that point
 Sigmoid activation functions (smooth way of determining if one value is greater than another)
-

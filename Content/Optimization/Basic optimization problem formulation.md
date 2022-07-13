@@ -7,10 +7,24 @@ Progress:
 - [x] lecture recorded
 - [x] video produced
 - [x] video uploaded
-- [ ] 1st round feedback received
-- [ ] video refined based on feedback
-- [ ] video reuploaded
-- [ ] notebook finished
+- [x] 1st round feedback received
+- [x] video refined based on feedback
+- [x] video reuploaded
+- [x] notebook finished
+
+Feedback:
+- [x] say if I'm suggesting adding constraints or DVs one at a time
+- [x] add a checkout other videos, please like and subscribe
+- [x] explain what a well-posed optimization is
+- [x] explain what an ill-posed optimization is (pot shaped optimization) 
+	- [x] https://www.wolframalpha.com/input/?i=%281%2F4+*+x%5E2+%2B+y%5E2+-+1%29%5E2
+	- [x] no feasible area
+	- [x] multiple discontinuities, happens in MDF
+- [x] add a link to the next video in the sequence on the screen
+- [x] add link to relevant sections of MDO book
+- [x] discuss bounds vs constraints in the lecture notes at a minimum; bounds are strictly enforced and constraints are only enforced at the optimal point
+- [x] add timestamps to video
+- [x] add formulation portion to the lecture notes
 
 
 ## Main message
