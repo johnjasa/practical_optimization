@@ -1,5 +1,24 @@
 tags: #intro
 
+- [ ] main message created and verified with someone
+- [ ] info outlined
+- [ ] info fleshed out
+- [ ] visuals developed
+- [ ] lecture recorded
+- [ ] video produced
+- [ ] video uploaded
+- [ ] 1st round feedback received
+- [ ] video refined based on feedback
+- [ ] video reuploaded
+- [ ] re-render and reupload
+- [ ] notebook finished
+
+- [x] make a visual showing where the course lands on the theoretical to implementation spectrum (practical)
+- [x] make a foundational building block diagram for knowledge (college level engineering, Python, OpenMDAO)
+- [x] record notebooks scrolling for intro
+- [x] show three videos on the right while pointing at them
+- [x] show the interconnected ideas graph
+
 ## Hello and welcome!
 This is a collection of markdown notes to help teach how best to perform multidisciplinary design optimization. It is absolutely a work in progress. I wanted to share the progress here as we continue to develop this course.
 
@@ -14,8 +33,6 @@ Any and all feedback is welcome!
 - If you want to learn Python or OM, use these resources
 - If you want to learn the theory, read the MDO Book or other papers or resources
 - The ideas presented here come from decades of person-years experience from NASA Glenn Research Center, the MDO Lab at the University of Michigan, and other contributors.
-
-## Aims of the course
 - Codify a lot of the learned knowledge that exists between theory and implementation
 - This knowledge is required to perform MDAO well
 - Also see [[What this course is and isn't]] for more info

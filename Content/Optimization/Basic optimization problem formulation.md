@@ -11,6 +11,8 @@ Progress:
 - [x] video refined based on feedback
 - [x] video reuploaded
 - [x] notebook finished
+- [ ] create bullets for poorly posed
+- [ ] re-render and reupload
 
 Feedback:
 - [x] say if I'm suggesting adding constraints or DVs one at a time
@@ -25,6 +27,7 @@ Feedback:
 - [x] discuss bounds vs constraints in the lecture notes at a minimum; bounds are strictly enforced and constraints are only enforced at the optimal point
 - [x] add timestamps to video
 - [x] add formulation portion to the lecture notes
+- [ ] add bullet points at 7:24 based on poorly posed problems discussion
 
 
 ## Main message

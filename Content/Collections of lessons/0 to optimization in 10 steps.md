@@ -9,32 +9,33 @@ Also, step 10 could arguably come first as it might inform how you set up the fi
 
 
 1) Building uncoupled feed forward models
-	1) [[Using groups to organize models]]
-	2) [[Connecting things vs promoting them]]
-	3) [[Using N2]]
-2) Problem formulation
+	1) [[Understanding XDSM diagrams]]
+	2) [[Using groups to organize models]]
+	3) [[Connecting things vs promoting them]]
+	4) [[Using N2]]
+3) Problem formulation
 	1) [[Basic optimization problem formulation]]
 	2) [[Multiobjective optimization]]
 	3) Optional: [[Slack variables vs equality constraints]]
 	4) Optional: [[How to deal with discrete variables]]
-3) Simple gradient-free opt
+4) Simple gradient-free opt
 	1) [[When to use gradient-free optimizers]]
 	2) [[Types of gradient-free optimizers]]
-4) Get partial derivatives
+5) Get partial derivatives
 	1) [[Brief intro to derivatives]]
 	2) [[Common ways to compute derivatives]]
-5) Gradient-based opt
+6) Gradient-based opt
 	1) [[Why to use gradient-based optimizers]]
 	2) [[Types of gradient-based optimizers]]
-6) Building coupled models
+7) Building coupled models
 	1) [[Implicit vs explicit]]
 	2) [[Fixed point iterators vs Newton]]
-7) [[Gradient-free multidisciplinary optimization]]
-8) Total derivatives for coupled models
+8) [[Gradient-free multidisciplinary optimization]]
+9) Total derivatives for coupled models
 	1) [[Nonlinear vs linear solvers]]
 	2) [[Total vs partial derivatives]]
-9) [[Gradient-based multidisciplinary optimization]]
-10) Coding standards and best practices
+10) [[Gradient-based multidisciplinary optimization]]
+11) Coding standards and best practices
 	1) [[Git]]
 	2) [[Folder and package structure]]
 	3) [[Tests]]
