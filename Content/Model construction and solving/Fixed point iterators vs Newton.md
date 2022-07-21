@@ -1,5 +1,23 @@
 tags: #model_construction
 
+- [ ] main message created
+- [ ] main message verified with someone
+- [ ] info outlined
+- [ ] info fleshed out
+- [ ] visuals ideated
+- [ ] visuals developed
+- [ ] lecture recorded
+- [ ] video produced
+- [ ] video uploaded
+- [ ] 1st round feedback received
+- [ ] video refined based on feedback
+- [ ] video reuploaded
+- [ ] re-render and reupload
+
+- [ ] notebook created
+- [ ] notebook text completed
+- [ ] notebook examples completed and checked
+
 ## Main message
 The type of solver you should use for your model depends on the cyclicity, computational cost, convergence, and I didn't mean to use only words that start with C, yet here we are.
 

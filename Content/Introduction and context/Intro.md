@@ -1,12 +1,12 @@
 tags: #intro
 
-- [ ] main message created and verified with someone
-- [ ] info outlined
-- [ ] info fleshed out
-- [ ] visuals developed
-- [ ] lecture recorded
-- [ ] video produced
-- [ ] video uploaded
+- [x] main message created and verified with someone
+- [x] info outlined
+- [x] info fleshed out
+- [x] visuals developed
+- [x] lecture recorded
+- [x] video produced
+- [x] video uploaded
 - [ ] 1st round feedback received
 - [ ] video refined based on feedback
 - [ ] video reuploaded

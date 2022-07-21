@@ -13,30 +13,30 @@ Also, step 10 could arguably come first as it might inform how you set up the fi
 	2) [[Using groups to organize models]]
 	3) [[Connecting things vs promoting them]]
 	4) [[Using N2]]
-3) Problem formulation
+2) Problem formulation
 	1) [[Basic optimization problem formulation]]
 	2) [[Multiobjective optimization]]
 	3) Optional: [[Slack variables vs equality constraints]]
 	4) Optional: [[How to deal with discrete variables]]
-4) Simple gradient-free opt
+3) Simple gradient-free opt
 	1) [[When to use gradient-free optimizers]]
 	2) [[Types of gradient-free optimizers]]
-5) Get partial derivatives
+4) Get partial derivatives
 	1) [[Brief intro to derivatives]]
 	2) [[Common ways to compute derivatives]]
-6) Gradient-based opt
+5) Gradient-based opt
 	1) [[Why to use gradient-based optimizers]]
 	2) [[Types of gradient-based optimizers]]
-7) Building coupled models
+6) Building coupled models
 	1) [[Implicit vs explicit]]
 	2) [[Fixed point iterators vs Newton]]
-8) [[Gradient-free multidisciplinary optimization]]
-9) Total derivatives for coupled models
+7) [[Gradient-free multidisciplinary optimization 1]]
+8) Total derivatives for coupled models
 	1) [[Nonlinear vs linear solvers]]
 	2) [[Total vs partial derivatives]]
-10) [[Gradient-based multidisciplinary optimization]]
-11) Coding standards and best practices
+9) [[Gradient-based multidisciplinary optimization 1]]
+10) Coding standards and best practices
 	1) [[Git]]
 	2) [[Folder and package structure]]
 	3) [[Tests]]
-	4) [[CI]]
+	4) [[Continuous integration]]

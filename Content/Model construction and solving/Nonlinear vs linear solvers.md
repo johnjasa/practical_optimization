@@ -1,5 +1,23 @@
 tags: #model_construction
 
+- [ ] main message created
+- [ ] main message verified with someone
+- [ ] info outlined
+- [ ] info fleshed out
+- [ ] visuals ideated
+- [ ] visuals developed
+- [ ] lecture recorded
+- [ ] video produced
+- [ ] video uploaded
+- [ ] 1st round feedback received
+- [ ] video refined based on feedback
+- [ ] video reuploaded
+- [ ] re-render and reupload
+
+- [ ] notebook created
+- [ ] notebook text completed
+- [ ] notebook examples completed and checked
+
 ## Main message
 You need to use a nonlinear solver when there's backwards coupling or implicit systems; need to use linear solver when using derivatives for Newton solvers or optimizers.
 

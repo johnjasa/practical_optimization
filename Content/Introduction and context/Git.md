@@ -1,5 +1,23 @@
 tags: #intro
 
+- [ ] main message created
+- [ ] main message verified with someone
+- [ ] info outlined
+- [ ] info fleshed out
+- [ ] visuals ideated
+- [ ] visuals developed
+- [ ] lecture recorded
+- [ ] video produced
+- [ ] video uploaded
+- [ ] 1st round feedback received
+- [ ] video refined based on feedback
+- [ ] video reuploaded
+- [ ] re-render and reupload
+
+- [ ] notebook created
+- [ ] notebook text completed
+- [ ] notebook examples completed and checked
+
 ## Main message
 Please please please use Git often when building models and optimizations to keep track of your efforts and scripts, especially in a collaborative environment.
 

@@ -1,5 +1,23 @@
 tags: #differentiation
 
+- [ ] main message created
+- [ ] main message verified with someone
+- [ ] info outlined
+- [ ] info fleshed out
+- [ ] visuals ideated
+- [ ] visuals developed
+- [ ] lecture recorded
+- [ ] video produced
+- [ ] video uploaded
+- [ ] 1st round feedback received
+- [ ] video refined based on feedback
+- [ ] video reuploaded
+- [ ] re-render and reupload
+
+- [ ] notebook created
+- [ ] notebook text completed
+- [ ] notebook examples completed and checked
+
 ## Main message
 You need to tell OpenMDAO how to compute the total derivatives if you want to do gradient-based optimization. You can do this by specifying partial derivatives, requesting FD on the subsystem level, or using FD on the full system.
 

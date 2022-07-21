@@ -1,4 +1,4 @@
-tags: #optimization 
+tags: #intro
 
 - [ ] main message created
 - [ ] main message verified with someone
@@ -17,8 +17,3 @@ tags: #optimization
 - [ ] notebook created
 - [ ] notebook text completed
 - [ ] notebook examples completed and checked
-
-- SNOPT
-- SLSQP
-- IPOPT
-- PAROPT
