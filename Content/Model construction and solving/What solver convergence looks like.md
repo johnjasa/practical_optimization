@@ -23,7 +23,6 @@ Viz ideas:
 - [ ] XDSM or N2 showing implicit model and component
 - [ ] XDSM showing no feed forward system
 - [ ] manim line plot showing convergence for the solver, use a real case or example from OM
-- [ ] 
 
 ## Main message
 A system is converged when the residuals are close to 0 within a tolerance. This means that all coupling and implicit interactions have been resolved and the model is returning a meaningful result.
