@@ -28,6 +28,12 @@ Visualizations:
 - [x] get WISDEM N2
 - [x] get pycycle N2
 
+I had a vision in the evening about a better way to discuss how to draw bounding boxes on models
+I made a draft video and got Justin's feedback
+Basically, the lesson is a bit too vague and doesn't have clear messages
+I will put it aside for now as it's not the most critical lecture
+This was on [[2022-07-28]]
+
 
 ## Main takeaway
 You should intelligently group components and subgroups in an intuitive way that makes computational or physical sense.

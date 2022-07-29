@@ -4,28 +4,29 @@ tags: #model_construction
 - [ ] main message verified with someone
 - [x] info outlined
 - [x] info fleshed out
-- [ ] visuals ideated
-- [ ] visuals developed
-- [ ] lecture recorded
-- [ ] video produced
-- [ ] video uploaded
+- [x] visuals ideated
+- [x] visuals developed
+- [x] lecture recorded
+- [x] video produced
+- [x] video uploaded
 - [ ] 1st round feedback received
 - [ ] video refined based on feedback
 - [ ] video reuploaded
 - [ ] re-render and reupload
 
-- [ ] notebook created
+- [x] notebook created
 - [ ] notebook text completed
 - [ ] notebook examples completed and checked
 
 Viz ideas:
-- [ ] XDSM or N2 showing backwards coupling
-- [ ] XDSM or N2 showing implicit model and component
-- [ ] XDSM showing no feed forward system
-- [ ] manim line plot showing convergence for the solver, use a real case or example from OM
+- [x] XDSM showing no coupling; feed forward system
+- [x] XDSM or N2 showing backwards coupling
+- [x] XDSM or N2 showing implicit model and component
+- [ ] manim line plot showing convergence for the solver, use a real case or example from OM; NLBGS, Newton
+- [x] show nested solvers and what convergence looks like there
 
 ## Main message
-A system is converged when the residuals are close to 0 within a tolerance. This means that all coupling and implicit interactions have been resolved and the model is returning a meaningful result.
+A system is converged when the residuals are close to 0 within a tolerance. How this is achieved depends on what solver you use, but generally you want your residuals to decrease as computationally quickly as possible.
 
 ## The basic idea of convergence
 Solver convergence means that the system's coupling or implicit relationships are resolved to the specified tolerance. Basically, the states (variables) within the system are at steady-state values for the given inputs. This mean that the outputs of the systems correctly correspond to the inputs. For any solver, we want the residual values of the states to be 0.
@@ -41,18 +42,18 @@ To be clear, the idea of solver convergence is different than that of optimizer 
 
 If your model is explicit feed-forward, in that there are no feedback loops or implicit states at all, you do not need a nonlinear solver or a notion of solver convergence. Most complicated engineering models have some sort of feedback. If you're not certain about the nature of your model, see [[Using N2]] on how to visualize and better understand you feedback loops.
 
+## How to tell when something is converged
+Determining when something is converged might be challenging. It fully depends on the problem you're solving and what you're doing with the results. If you're performing gradient-based optimization of high-fidelity CFD, you generally want a pretty tight tolerance. If you just need rough numbers or large-scale trends for an analysis, you might be able to get away with a looser tolerance. [[What solver tolerance should I use]] goes into much more detail about this.
+
 ## Convergence in the terminal
 In OpenMDAO, solvers print out their convergence state based on their `iprint` value. You should generally have solver convergence printing on and logged to a file when doing analysis and optimization. This allows you to determine how a system is converging and how it's meeting the tolerances you've set.
 
-TODO: add terminal output with the two numbers
-
 Those two numbers are the *absolute* and *relative* residuals, respectively. You can set the tolerance for both of these values and accept convergence from either metric. There could be a system where you care about things on the order 1e10 or on the order 1e-5, so those relative and absolute tolerances might greatly differ.
 
-- TODO show examples of it looking great and looking bad
-	- three iterations like some wind turbines
-	- 40 iterations like the circuit example
-	- stalling out on pycycle ([[How to debug solvers]])
-	- maybe a relaxed solver vs a non-relaxed one
+http://openmdao.org/twodocs/versions/latest/basic_user_guide/multidisciplinary_optimization/sellar.html
+https://openmdao.org/twodocs/versions/latest/features/debugging/debugging_solvers.html
+http://openmdao.org/twodocs/versions/latest/features/core_features/controlling_solver_behavior/set_solvers.html
+http://openmdao.org/twodocs/versions/latest/features/core_features/controlling_solver_behavior/solver_options.html
 
-## When is something converged?
-Determining when something is converged might be challenging. It fully depends on the problem you're solving and what you're doing with the results. If you're performing gradient-based optimization of high-fidelity CFD, you generally want a pretty tight tolerance. If you just need rough numbers or large-scale trends for an analysis, you might be able to get away with a looser tolerance. [[What solver tolerance should I use]] goes into much more detail about this.
+## Closing message
+Converging a system means that all coupling and implicit interactions have been resolved. The best solver settings and what "good" solver convergence means are highly problem dependent.
