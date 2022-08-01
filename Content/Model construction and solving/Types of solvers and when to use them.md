@@ -35,7 +35,7 @@ Viz ideas:
 
 
 ## Main message
-For nonlinear and linear systems there are various solvers that can converge your system. The best solver to use is highly problem dependent but the goal of this lecture is to be able to recognize a reasonable staring configuration for your systems.
+For nonlinear and linear systems there are various solvers that can converge your system. The best solver to use is highly problem dependent but the goal of this lecture is to be able to recognize a reasonable starting configuration for your systems.
 
 ## Brief introduction to solvers
 The goal of this lesson isn't to introduce the math or theory behind solvers, but more to give a brief introduction to the different classes of solvers and when you would practically want to use one over the other. Throughout this lesson, I will reference other resources that go into much more detail about the solvers themselves and how they operate on systems.
