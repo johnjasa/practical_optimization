@@ -22,8 +22,16 @@ Viz ideas:
 - [x] XDSM showing no coupling; feed forward system
 - [x] XDSM or N2 showing backwards coupling
 - [x] XDSM or N2 showing implicit model and component
-- [ ] manim line plot showing convergence for the solver, use a real case or example from OM; NLBGS, Newton
+- [x] manim line plot showing convergence for the solver, use a real case or example from OM; NLBGS, Newton
 - [x] show nested solvers and what convergence looks like there
+
+Feedback received:
+- [ ] verbally and in the video make it clear that we're talking about the norm of the residual, also show this in the notebook
+- [ ] not worth re-recording, but in future vids I'd increase the font size a bit (when looking at notebooks) (edited) 
+- [ ] at 11:14, editing mistake: "this creates an extremely complex system" twice
+- [ ] for this complex case, I'd show an N2, you can highlight the solvers in the n2 as you highlight them in the txt maybe
+- [ ] at 13:22 show an N2 with something on the lower diagonal that gets highlighted when I say coupling
+
 
 ## Main message
 A system is converged when the residuals are close to 0 within a tolerance. How this is achieved depends on what solver you use, but generally you want your residuals to decrease as computationally quickly as possible.
@@ -57,3 +65,5 @@ http://openmdao.org/twodocs/versions/latest/features/core_features/controlling_s
 
 ## Closing message
 Converging a system means that all coupling and implicit interactions have been resolved. The best solver settings and what "good" solver convergence means are highly problem dependent.
+
+Corn pic from https://www.rawpixel.com/image/3259468/free-photo-image-corn-agriculture-us

@@ -1,7 +1,7 @@
 tags: #optimization 
 
 ## Main message
-Multidisciplinary optimization is much like single-disciplinary; you just need to construct and solve a reasonable model.
+Multidisciplinary optimization is much like single-disciplinary; you just need to construct and solve a reasonable model. You might use gradient-free methods when your model is discontinuous, discrete, is multimodal, and doesn't have efficient derivatives.
 
 ## Potential pitfalls
 - optimization, especially gradient-free, may propel your model into uncharted territory in the design space
