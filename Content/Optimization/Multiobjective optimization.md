@@ -21,6 +21,7 @@ https://www.lancaster.ac.uk/stor-i-student-sites/peter-greenstreet/2020/04/26/is
 https://www.researchgate.net/figure/For-non-convex-Pareto-fronts-it-is-possible-that-parts-of-the-front-can-not-be-obtained_fig4_261885755
 https://www.sciencedirect.com/science/article/pii/S0307904X15001742
 
+0:00 - Intro 0:20 - Weighted sum method 2:24 - Pareto fronts 4:09 - Epsilon-constraint method 4:57 - Conclusion Accompanying Python notebook: https://github.com/johnjasa/practical_optimization/blob/main/Notebooks/Optimization/multiobjective.ipynb Referenced paper for Pareto data, Brooks 2020: https://doi.org/10.2514/1.C035699 See Chapter 9 in _Engineering Design Optimization_ by Martins and Ning for a more in-depth view: https://mdobook.github.io/
 
 Linked to [[Advanced problem formulation]]
 

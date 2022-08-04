@@ -14,24 +14,24 @@ related lessons:
 - [x] info outlined
 - [x] info fleshed out
 - [x] visuals ideated
-- [ ] visuals developed
-- [ ] lecture recorded
-- [ ] video produced
-- [ ] video uploaded
+- [x] visuals developed
+- [x] lecture recorded
+- [x] video produced
+- [x] video uploaded
 - [ ] 1st round feedback received
 - [ ] video refined based on feedback
 - [ ] video reuploaded
 - [ ] re-render and reupload
 
 - [x] notebook created
-- [ ] notebook text completed
-- [ ] notebook examples completed and checked
+- [x] notebook text completed
+- [x] notebook examples completed and checked
 
 Viz ideas:
 - [x] 3.6 from Martins and Ning
 - [ ] an N2 where there's no backwards coupling but there is an implicit component to show when you need a Newton solver
-- [ ] show NLBGS aerostructural video when discussing fixed point iterators
-- [ ] show Newton solver video and link to it
+- [x] show NLBGS aerostructural video when discussing fixed point iterators
+- [x] show Newton solver video and link to it
 
 
 ## Main message
