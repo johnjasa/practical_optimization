@@ -8,7 +8,7 @@ related:
 - [ ] main message verified with someone
 - [x] info outlined
 - [x] info fleshed out
-- [ ] visuals ideated
+- [x] visuals ideated
 - [ ] visuals developed
 - [ ] lecture recorded
 - [ ] video produced
@@ -18,14 +18,17 @@ related:
 - [ ] video reuploaded
 - [ ] re-render and reupload
 
-- [ ] notebook created
-- [ ] notebook text completed
-- [ ] notebook examples completed and checked
+- [x] notebook created
+- [x] notebook text completed
+- [x] notebook examples completed and checked
 
 Viz ideas:
-- [ ] flash up Martins and Ning's categorization of solvers again
+- [x] flash up Martins and Ning's categorization of solvers again
+- [x] show the initial states vector as 0 -> ? -> converged values
+- [x] highlight how to set_val in OM?
+- [ ] get a bad OAS case with huge residuals increasing
 - [ ] a wing that you accidentally make way too bendy (show wing, a force vector, maybe the elasticity)
-- [ ] notebook with a solver where you just need more iterations to get convergence
+- [x] notebook with a solver where you just need more iterations to get convergence
 
 
 ## Main message
