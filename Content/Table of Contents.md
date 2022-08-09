@@ -36,3 +36,7 @@ https://youtu.be/GxKgda5nMU8
 
 ## [[Solving coupled systems]]
 https://youtu.be/FNXlyDVvk-k
+
+
+## [[How to debug solvers]]
+https://youtu.be/u0jCVRiRSIU

@@ -2,17 +2,16 @@ tags: #model_construction #high_priority
 related:
 [[What solver convergence looks like]]
 [[Types of solvers and when to use them]]
-[[Types of solvers and when to use them]]
 
 - [x] main message created
 - [ ] main message verified with someone
 - [x] info outlined
 - [x] info fleshed out
 - [x] visuals ideated
-- [ ] visuals developed
-- [ ] lecture recorded
-- [ ] video produced
-- [ ] video uploaded
+- [x] visuals developed
+- [x] lecture recorded
+- [x] video produced
+- [x] video uploaded
 - [ ] 1st round feedback received
 - [ ] video refined based on feedback
 - [ ] video reuploaded
@@ -26,9 +25,16 @@ Viz ideas:
 - [x] flash up Martins and Ning's categorization of solvers again
 - [x] show the initial states vector as 0 -> ? -> converged values
 - [x] highlight how to set_val in OM?
-- [ ] get a bad OAS case with huge residuals increasing
-- [ ] a wing that you accidentally make way too bendy (show wing, a force vector, maybe the elasticity)
+- [x] get a bad OAS case with huge residuals increasing
+- [x] a wing that you accidentally make way too bendy (show wing, a force vector, maybe the elasticity)
 - [x] notebook with a solver where you just need more iterations to get convergence
+
+Feedback:
+- [ ] briefly describe solve_subsystems and link to a more in-depth explanation
+- [ ] bring up in section 2 that the solution might lie outside the bounds; this happens often in GASPy. maybe mention this during the checklist too
+- [ ] Justin wants to see manually trying to converge
+- [ ] also suggests showing the residual filter on list_outputs to reduce noise in the prints
+- [ ] at 6min, 58 seconds you repeat the same audio "maybe I have something that isn't connected but it should be connected"
 
 
 ## Main message

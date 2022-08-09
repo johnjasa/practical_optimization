@@ -18,6 +18,13 @@ tags: #differentiation
 - [ ] notebook text completed
 - [ ] notebook examples completed and checked
 
+Viz ideas:
+- [ ] simple finite difference manim visual
+- [ ] more complex FD visual where you show subtractive cancellation. 
+- [ ] complex step is basically magic. some metaphor about how much a peanut means to a housefly vs what it means to an elephant. or how much 5 nanograms of silica matters to a processor vs a meteor
+- [ ] partial deriv computation by hand, showing the power rule or similar
+- [ ] walk through Jax or similar visually
+
 ## Main message
 There are many ways to compute partial derivatives: finite-differencing, complex-step, analytically by hand, or through algorithmic differentiation. The best method depends on your problem formulation, but the best implementation usually involves an intelligent mix of these methods.
 
@@ -43,7 +50,6 @@ $$\frac{\partial f}{\partial x} = \frac{f(x+ ih) - f(x)}{ih} $$
 
 Please check out the section in the MDO Book (TODO add link) or the complex-step paper by Martins in 2004 (TODO add link) for more theoretical details.
 
-
 The biggest practical consideration is that you need a complex-safe model. What I mean by this is that your model has to fully propagate complex numbers through it correctly. If you have an external solver in Fortran or C, for instance, and it's assuming all numbers are real-typed, then any perturbation in the complex space will not be reflected throughout the model. Thus, complex-step is best used on *graybox* models where we have some information about what's going on behind the scenes. If you're not able to verify if a model is complex-safe, try using the complex-step method as compared to FD to see if the derivatives are roughly the same, accounting for the inaccuracies introduced by FD.
 
 TODO: add complex step examples in OM
@@ -65,4 +71,4 @@ Algorithmic differentiation (AD) is also known as automatic differentiation. AD 
 
 Some programming languages and packages exist to help perform AD on your models, including tensorflow, Jax, Tapenade, Julia, etc (TODO: add links). It would be fantastic if AD was a cure-all reliable method of producing derivatives, but it often has limitations in terms of what code can be converted. There are many potential pitfalls, including code structure, variable use, cost of computing derivatives, lack of support for operations, etc. However, if AD works for your model, then you get the benefits of analytic derivatives without the huge developer cost! Isn't that great?
 
-This is something that OpenMDAO has considered and used throughout its development.
+This is something that the OpenMDAO developer team has considered throughout its development, though it is not natively implemented in OpenMDAO.
