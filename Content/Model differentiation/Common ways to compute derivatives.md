@@ -14,13 +14,13 @@ tags: #differentiation
 - [ ] video reuploaded
 - [ ] re-render and reupload
 
-- [ ] notebook created
-- [ ] notebook text completed
+- [x] notebook created
+- [x] notebook text completed
 - [ ] notebook examples completed and checked
 
 Viz ideas:
-- [ ] simple finite difference manim visual
-- [ ] more complex FD visual where you show subtractive cancellation. 
+- [x] simple finite difference manim visual
+- [x] more complex FD visual where you show subtractive cancellation. 
 - [ ] complex step is basically magic. some metaphor about how much a peanut means to a housefly vs what it means to an elephant. or how much 5 nanograms of silica matters to a processor vs a meteor
 - [ ] partial deriv computation by hand, showing the power rule or similar
 - [ ] walk through Jax or similar visually
@@ -41,6 +41,7 @@ That being said, if you're just starting with a blackbox model and need to appro
 
 TODO: add total derivative FD example in OM
 TODO: add partial derivative FD example in OM
+too much ice cream is too small of an FD size
 
 ## Complex-step
 
@@ -54,6 +55,7 @@ The biggest practical consideration is that you need a complex-safe model. What 
 
 TODO: add complex step examples in OM
 TODO: mention that when you use ExecComps you are using CS under the hood and show an example
+ghost from previous video
 
 ## Analytically or by hand
 When you compute derivatives by hand you are paying high developer cost to reduce computational cost by obtaining exact derivatives. This is really where your understanding of calculus and differential equations comes into play. It's not necessarily easy to compute derivatives by hand, but if you know you're going to be performing many optimizations with a model or it will be used in many multidisciplinary studies, it's often quite worthwhile.
