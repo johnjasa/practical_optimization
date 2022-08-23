@@ -1,14 +1,14 @@
 tags: #differentiation 
 
 - [x] main message created
-- [ ] main message verified with someone
+- [x] main message verified with someone
 - [x] info outlined
 - [x] info fleshed out
-- [ ] visuals ideated
-- [ ] visuals developed
-- [ ] lecture recorded
-- [ ] video produced
-- [ ] video uploaded
+- [x] visuals ideated
+- [x] visuals developed
+- [x] lecture recorded
+- [x] video produced
+- [x] video uploaded
 - [ ] 1st round feedback received
 - [ ] video refined based on feedback
 - [ ] video reuploaded
@@ -21,9 +21,14 @@ tags: #differentiation
 Viz ideas:
 - [x] simple finite difference manim visual
 - [x] more complex FD visual where you show subtractive cancellation. 
-- [ ] complex step is basically magic. some metaphor about how much a peanut means to a housefly vs what it means to an elephant. or how much 5 nanograms of silica matters to a processor vs a meteor
-- [ ] partial deriv computation by hand, showing the power rule or similar
-- [ ] walk through Jax or similar visually
+- [x] complex step is basically magic. some metaphor about how much a peanut means to a housefly vs what it means to an elephant. or how much 5 nanograms of silica matters to a processor vs a meteor
+- [x] partial deriv computation by hand, showing the power rule or similar
+- [x] walk through Jax or similar visually
+
+To fix:
+- [ ] add "your model must be complex safe" in the disadvantages section for CS
+- [ ] Rob wants more explanation on how and why AD is inefficient, in terms of it producing inefficient code
+- [ ] Daniel wants to see a definition of first and second order for the FD and 2nd order FD, show the O(h) and O(h^2)
 
 ## Main message
 There are many ways to compute partial derivatives: finite-differencing, complex-step, analytically by hand, or through algorithmic differentiation. The best method depends on your problem formulation, but the best implementation usually involves an intelligent mix of these methods.

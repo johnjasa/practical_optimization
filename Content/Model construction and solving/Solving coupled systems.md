@@ -5,22 +5,22 @@ related:
 [[Types of solvers and when to use them]]
 
 - [x] main message created
-- [ ] main message verified with someone
+- [x] main message verified with someone
 - [x] info outlined
 - [x] info fleshed out
 - [x] visuals ideated
-- [ ] visuals developed
-- [ ] lecture recorded
-- [ ] video produced
-- [ ] video uploaded
-- [ ] 1st round feedback received
+- [x] visuals developed
+- [x] lecture recorded
+- [x] video produced
+- [x] video uploaded
+- [x] 1st round feedback received
 - [ ] video refined based on feedback
 - [ ] video reuploaded
 - [ ] re-render and reupload
 
 - [x] notebook created
-- [ ] notebook text completed
-- [ ] notebook examples completed and checked
+- [x] notebook text completed
+- [x] notebook examples completed and checked
 
 Viz ideas:
 - [x] show linear systems (Ax=b) and nonlinear systems in manim (can be anything)
@@ -62,7 +62,7 @@ This is a pretty trivial example, but I wanted to include it to motivate the com
 
 So, I'm simply showing what an extremely simple nonlinear system looks like. The states (here $x$ and $y$) can be solved for using a solver.
 
-A linear system is a different but related type of system. Specialized solvers do a better job at solving these systems. See [[Nonlinear vs linear solvers]] for more information.
+A linear system is a different but related type of system. Specialized solvers do a better job at solving these systems. See [[Nonlinear and linear systems and solvers]] for more information.
 
 TODO : add an OpenMDAO representation of this problem?
 

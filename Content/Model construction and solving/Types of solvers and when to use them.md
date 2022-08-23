@@ -5,7 +5,7 @@ related lessons:
 [[What solver tolerance should I use]]
 [[What solver convergence looks like]]
 [[How to debug solvers]]
-[[Nonlinear vs linear solvers]]
+[[Nonlinear and linear systems and solvers]]
 [[Hierarchical linear solvers]]
 [[Nested nonlinear solvers]]
 

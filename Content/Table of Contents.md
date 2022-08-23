@@ -34,9 +34,16 @@ https://youtu.be/zHOdNwa1els
 https://youtu.be/GxKgda5nMU8
 
 
-## [[Solving coupled systems]]
+### [[Solving coupled systems]]
 https://youtu.be/FNXlyDVvk-k
 
 
-## [[How to debug solvers]]
+### [[How to debug solvers]]
 https://youtu.be/u0jCVRiRSIU
+
+
+### [[Common ways to compute derivatives]]
+https://youtu.be/c0fL8w9nVeA
+
+## [[Gradient-based multidisciplinary optimization]]
+https://youtu.be/5cT0_iSHOag

@@ -32,7 +32,7 @@ Also, step 10 could arguably come first as it might inform how you set up the fi
 	2) [[Fixed point iterators vs Newton]]
 7) [[Gradient-free multidisciplinary optimization 1]]
 8) Total derivatives for coupled models
-	1) [[Nonlinear vs linear solvers]]
+	1) [[Nonlinear and linear systems and solvers]]
 	2) [[Total vs partial derivatives]]
 9) [[Gradient-based multidisciplinary optimization 1]]
 10) Coding standards and best practices

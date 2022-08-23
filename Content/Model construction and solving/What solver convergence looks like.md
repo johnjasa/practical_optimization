@@ -42,7 +42,7 @@ $$ R(x) = 0 $$ but really it's
 $$ R(x) < \text{tol} $$
 where $\text{tol}$ is some number that is reasonably close to 0, maybe 1e-4 or 1e-8 or some other small number based on your problem.
 
-Convergence is relevant for both nonlinear and linear solvers. In oversimplified terms, you are converging the states of the system for nonlinear solvers whereas for linear solvers, you are converging the derivatives of the system. See [[Nonlinear vs linear solvers]] for a more detailed look. It's easier to think about nonlinear solvers converging states for a lot of people, so I'd suggest imagining those instead of linear solvers for this lesson.
+Convergence is relevant for both nonlinear and linear solvers. In oversimplified terms, you are converging the states of the system for nonlinear solvers whereas for linear solvers, you are converging the derivatives of the system. See [[Nonlinear and linear systems and solvers]] for a more detailed look. It's easier to think about nonlinear solvers converging states for a lot of people, so I'd suggest imagining those instead of linear solvers for this lesson.
 
 Your solver might converge part of your model sooner than another part due to the magnitude of the states and residuals. An example would be a solver that's converging the mass of an aircraft as well as its angle of attack. Without any scaling, the mass is a much larger magnitude than the angle of attack. The solver would prioritize resolving the mass residual much more than the angle of attack. This is also a motivating case for scaling your state variables when using complicated solver setups. This is a different but related topic to optimizer scaling.
 
