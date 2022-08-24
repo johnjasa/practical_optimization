@@ -1,29 +1,22 @@
 tags: #differentiation #high_priority 
 
-- [ ] main message created
+- [x] main message created
 - [ ] main message verified with someone
-- [ ] info outlined
-- [ ] info fleshed out
-- [ ] visuals ideated
-- [ ] visuals developed
-- [ ] lecture recorded
-- [ ] video produced
-- [ ] video uploaded
+- [x] info outlined
+- [x] info fleshed out
+- [x] visuals ideated
+- [x] visuals developed
+- [x] lecture recorded
+- [x] video produced
+- [x] video uploaded
 - [ ] 1st round feedback received
 - [ ] video refined based on feedback
 - [ ] video reuploaded
 - [ ] re-render and reupload
 
-- [ ] notebook created
-- [ ] notebook text completed
-- [ ] notebook examples completed and checked
-
-Diagonal, non-diagonal, sparse
-
-When you're computing a Jacobian, what are the rows and the columns?
-Determine a nice way or pneumonic or know
-A picture
-dF/dX means what?
+- [x] notebook created
+- [x] notebook text completed
+- [x] notebook examples completed and checked
 
 ## Main message
 Derivatives of a scalar with respect to a scalar might be relatively straightforward. Derivatives of vector valued functions are not impossibly difficult. You can use intelligent matrix and array operations to facilitate the process.

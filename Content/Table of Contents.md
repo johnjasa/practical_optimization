@@ -47,3 +47,6 @@ https://youtu.be/c0fL8w9nVeA
 
 ## [[Gradient-based multidisciplinary optimization]]
 https://youtu.be/5cT0_iSHOag
+
+## [[Derivatives of vector valued functions]]
+https://youtu.be/ONDtUFA0t34
