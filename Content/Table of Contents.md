@@ -50,3 +50,6 @@ https://youtu.be/5cT0_iSHOag
 
 ## [[Derivatives of vector valued functions]]
 https://youtu.be/ONDtUFA0t34
+
+## [[Nonlinear and linear systems and solvers]]
+https://youtu.be/8txDZYz-5DI
