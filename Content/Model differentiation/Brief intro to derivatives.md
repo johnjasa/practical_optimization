@@ -1,4 +1,27 @@
 tags: #differentiation 
+- [ ] main message created
+- [ ] main message verified with someone
+- [ ] info outlined
+- [ ] info fleshed out
+- [ ] visuals ideated
+- [ ] visuals developed
+- [ ] lecture recorded
+- [ ] video produced
+- [ ] video uploaded
+- [ ] 1st round feedback received
+- [ ] video refined based on feedback
+- [ ] video reuploaded
+- [ ] re-render and reupload
+
+- [ ] notebook created
+- [ ] notebook text completed
+- [ ] notebook examples completed and checked
+
+Visualizations:
+- [ ] show the math behind partial derivatives and total derivatives
+- [ ] show a block diagram of partial and total derivatives
+- [ ] explain how the chain rule is used to get the total derivatives from the partial derivs
+- [ ] show a trade-off between developer cost and computational cost (borrow Pareto front from John Hwang)
 
 ## Main message
 Derivatives are necessary to effectively guide gradient-based optimizers and Newton solvers to the correct answers.
@@ -17,6 +40,6 @@ Efficient computation of derivatives will unlock designs that would not be possi
 
 It may not always be necessary to compute derivatives for models. Generally we strongly suggest using gradient-based optimizers with efficiently-computed derivatives due to the computational benefits (see: [[Why to use gradient-based optimizers]]). That being said, you *can* compute derivatives via the finite difference (FD) or complex-step (CS) methods and still use gradient-based optimization at a dramatically reduced developer cost. However, you face an increase in computational cost that scales with the number of design variables, so highly dimensional problems are generally off the table using these methods.
 
-For extremely low-cost models or low-dimensional design problems, it may not be worth it compute derivatives. For instance, if one analysis of your model takes 0.01 seconds, and computing the derivatives would take 16 person-hours, it may make the most sense to use gradient-free or finite-differenced gradient-based optimization methods. This trade-off varies on a problem-by-problem basis, so developers and modelers should take special care to consider how often their models will be used in design optimization.
+For extremely low-cost models or low-dimensional design problems, it may not be worth it compute derivatives. For instance, if one analysis of your model takes 0.01 seconds and computing the derivatives would take 16 person-hours, it may make the most sense to use gradient-free or finite-differenced gradient-based optimization methods. This trade-off varies on a problem-by-problem basis, so developers and modelers should take special care to consider how often their models will be used in design optimization.
 
 

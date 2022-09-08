@@ -1,5 +1,28 @@
 tags: #optimization 
 
+- [x] main message created
+- [ ] main message verified with someone
+- [x] info outlined
+- [x] info fleshed out
+- [ ] visuals ideated
+- [ ] visuals developed
+- [ ] lecture recorded
+- [ ] video produced
+- [ ] video uploaded
+- [ ] 1st round feedback received
+- [ ] video refined based on feedback
+- [ ] video reuploaded
+- [ ] re-render and reupload
+
+- [ ] notebook created
+- [ ] notebook text completed
+- [ ] notebook examples completed and checked
+
+Visualizations:
+- [ ] show the bits for a genetic algo from the mdobook
+- [ ] show a particle swarm method converging
+- [ ] show simplex method with the triangles
+
 ## Main message
 There are many different types of gradient-free optimizers, including genetic algorithms, particle swarm methods, approximated simplex methods, and more. The best method to use varies based on your problem formulation and desired outcome.
 

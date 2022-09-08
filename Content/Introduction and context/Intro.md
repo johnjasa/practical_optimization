@@ -22,7 +22,7 @@ tags: #intro
 ## Hello and welcome!
 This is a collection of markdown notes to help teach how best to perform multidisciplinary design optimization. It is absolutely a work in progress. I wanted to share the progress here as we continue to develop this course.
 
-Check out [[0 to optimization in 10 steps]] if you're looking for a quick example set of lessons contained in this course. Click around and see linked notes to merge ideas together.
+Check out [[0 to multidisciplinary optimization in 10 steps]] if you're looking for a quick example set of lessons contained in this course. Click around and see linked notes to merge ideas together.
 
 Any and all feedback is welcome!
 
